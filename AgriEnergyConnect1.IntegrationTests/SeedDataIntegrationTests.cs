@@ -27,7 +27,7 @@ namespace AgriEnergyConnect1.IntegrationTests
                 .BuildServiceProvider();
 
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
-                .UseInMemoryDatabase(databaseName: "Test_Database")
+                .UseInMemoryDatabase(databaseName: "AgriEnergyDB")
                 .UseInternalServiceProvider(serviceProvider)
                 .Options;
 

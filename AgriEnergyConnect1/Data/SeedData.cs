@@ -12,21 +12,20 @@ namespace AgriEnergyConnect1.Data
     {
         public static async Task Initialize(IServiceProvider serviceProvider, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
         {
-
             string[] roleNames = { "Farmer", "Employee" };
             IdentityResult roleResult;
 
             // Create roles if they don't exist
             foreach (var roleName in roleNames)
             {
-                var roleExist = await serviceProvider.GetRequiredService<RoleManager<IdentityRole>>().RoleExistsAsync(roleName);
+                var roleExist = await roleManager.RoleExistsAsync(roleName);
                 if (!roleExist)
                 {
-                    roleResult = await serviceProvider.GetRequiredService<RoleManager<IdentityRole>>().CreateAsync(new IdentityRole(roleName));
+                    roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
                 }
             }
 
-            // Create a test user and assign the Farmer role
+            // Create a test user and assign the appropriate role
             var user = new IdentityUser
             {
                 UserName = "testuser@test.com",
@@ -41,11 +40,13 @@ namespace AgriEnergyConnect1.Data
                 var createUser = await userManager.CreateAsync(user, userPassword);
                 if (createUser.Succeeded)
                 {
+                    // Assign the "Farmer" role to this test user
                     await userManager.AddToRoleAsync(user, "Farmer");
                 }
             }
+       
 
-            var context = serviceProvider.GetRequiredService<ApplicationDbContext>();
+        var context = serviceProvider.GetRequiredService<ApplicationDbContext>();
             context.Database.Migrate();
 
             // Seed sample farmers if the table is empty
@@ -53,7 +54,9 @@ namespace AgriEnergyConnect1.Data
             {
                 context.Farmers.AddRange(
                     new Farmer { Name = "John Doe", Email = "john@example.com" },
-                    new Farmer { Name = "Jane Smith", Email = "jane@example.com" }
+                    new Farmer { Name = "Jane Smith", Email = "jane@example.com" },
+                    new Farmer { Name = "Liam Delon", Email = "Liam@example.com" }
+
                 );
                 await context.SaveChangesAsync();
             }
