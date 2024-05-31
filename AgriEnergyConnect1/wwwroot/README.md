@@ -17,7 +17,7 @@
 ### Farmer
 - Add products with details like name, category, and production date.
 - View own product listings.
-- 
+
 
 ### Employee
 - Add new farmer profiles with essential details.
@@ -65,3 +65,13 @@
 
 4. ## Feedback and Support
 If you have any feedback or need support, please don't hesitate to reach out. You can submit feedback directly within the application or contact our support team at support@agrienergyconnect.com.
+
+
+5. ## Github Repository Link
+
+https://github.com/VCCT-OPSC7311-G2-2024/ST10177615_DylanLeePadayachee_PROG7311POEPart2_AgriEnergyConnect1
+
+6.  ## Website URL
+	 
+http://localhost:5163/
+
