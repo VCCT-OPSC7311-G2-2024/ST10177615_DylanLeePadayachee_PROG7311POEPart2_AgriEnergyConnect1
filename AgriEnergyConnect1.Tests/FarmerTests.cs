@@ -1,4 +1,7 @@
-﻿using Xunit;
+﻿// C# class generated with assistance from ChatGPT
+
+
+using Xunit;
 using AgriEnergyConnect1.Models;
 using System;
 using System.Collections.Generic;

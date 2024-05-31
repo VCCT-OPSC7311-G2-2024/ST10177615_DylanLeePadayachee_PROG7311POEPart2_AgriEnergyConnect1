@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿// C# class generated with assistance from ChatGPT
+
+
+using System.ComponentModel.DataAnnotations;
 
 namespace AgriEnergyConnect1.Models
 {

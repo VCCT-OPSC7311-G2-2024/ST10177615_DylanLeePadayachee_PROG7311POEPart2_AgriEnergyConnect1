@@ -1,4 +1,7 @@
-    namespace AgriEnergyConnect1.Models
+// C# class generated with assistance from ChatGPT
+
+
+namespace AgriEnergyConnect1.Models
     {
         public class ErrorViewModel
         {

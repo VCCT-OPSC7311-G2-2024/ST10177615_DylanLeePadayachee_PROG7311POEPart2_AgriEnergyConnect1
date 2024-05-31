@@ -1,4 +1,7 @@
-﻿using Xunit;
+﻿// C# class generated with assistance from ChatGPT
+
+
+using Xunit;
 using Moq;
 using Microsoft.AspNetCore.Mvc;
 using AgriEnergyConnect1.Controllers;

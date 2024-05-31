@@ -1,4 +1,7 @@
-﻿using AgriEnergyConnect1.Models;
+﻿// C# class generated with assistance from ChatGPT
+
+
+using AgriEnergyConnect1.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;

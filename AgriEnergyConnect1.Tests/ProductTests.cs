@@ -1,4 +1,7 @@
-﻿using System;
+﻿// C# class generated with assistance from ChatGPT
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using AgriEnergyConnect1.Models;

@@ -1,4 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿// C# class generated with assistance from ChatGPT
+
+
+using System.Threading.Tasks;
 using Xunit;
 using Microsoft.AspNetCore.Mvc;
 using AgriEnergyConnect1.Controllers;

@@ -1,4 +1,7 @@
-﻿# Agri-Energy Connect Platform
+﻿<!-- File generated with assistance from ChatGPT -->
+
+
+# Agri-Energy Connect Platform
 
 
 ## Setup Instructions

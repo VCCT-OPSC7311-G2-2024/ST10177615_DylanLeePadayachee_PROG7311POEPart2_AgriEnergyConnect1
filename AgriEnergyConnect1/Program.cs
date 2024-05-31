@@ -1,3 +1,6 @@
+// C# class generated with assistance from ChatGPT
+
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using AgriEnergyConnect1.Data;

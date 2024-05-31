@@ -1,4 +1,6 @@
-﻿Here is the documentation for each of the errors I encountered during your unit tests. Each entry includes the test name, the error message, and the stack trace for debugging purposes.
+﻿<!-- File generated with assistance from ChatGPT -->
+
+Here is the documentation for each of the errors I encountered during your unit tests. Each entry includes the test name, the error message, and the stack trace for debugging purposes.
 
 
 1. FarmersControllerIntegrationTests.Get_FarmersIndex_ReturnsSuccessStatusCode

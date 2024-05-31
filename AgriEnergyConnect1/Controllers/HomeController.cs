@@ -1,3 +1,6 @@
+// C# class generated with assistance from ChatGPT
+
+
 using AgriEnergyConnect1.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
