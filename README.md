@@ -17,12 +17,12 @@
 ### Farmer
 - Add products with details like name, category, and production date.
 - View own product listings.
-- 
+  
 
 ### Employee
 - Add new farmer profiles with essential details.
 - View and filter products from any farmer based on criteria like date range and product type.
-- 
+  
 
 ## UI Design Considerations
 - **Intuitive Navigation**: The navigation menu provides easy access to different sections of the application for both farmers and employees.
